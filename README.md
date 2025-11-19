@@ -16,7 +16,7 @@ This demo application allows users to upload one or two images through a web int
 
 ## System Requirements
 
-- Linux-based system (tested on Ubuntu)
+- HP ZGX Nano
 - Python 3.8 or higher
 - pip package manager
 - At least 8GB of RAM recommended for model inference
