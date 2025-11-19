@@ -181,6 +181,9 @@ If you see "Frontend not found" error:
 - Check file permissions
 - Ensure the installation script completed successfully
 
+## Stopping the Demo
+Press `Ctrl+C` in the terminal running the demo to gracefully shutdown all services.
+
 ## Demo Tips for Sales Teams
 
 1. **Pre-load the Model**: Start the application before the demo to ensure the model is loaded in memory
