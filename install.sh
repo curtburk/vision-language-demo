@@ -28,8 +28,8 @@ echo ""
 
 # Create a virtual environment (optional but recommended)
 echo "Creating Python virtual environment..."
-if [ ! -d "venv" ]; then
-    python3 -m venv venv
+if [ ! -d "vision-env" ]; then
+    python3 -m venv vision-env
     echo "✓ Virtual environment created"
 else
     echo "✓ Virtual environment already exists"
@@ -38,7 +38,7 @@ echo ""
 
 # Activate virtual environment
 echo "Activating virtual environment..."
-source venv/bin/activate
+source vision-env/bin/activate
 echo "✓ Virtual environment activated"
 echo ""
 
