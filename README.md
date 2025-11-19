@@ -113,6 +113,19 @@ To use a different VLM model:
   ```
 - Replace with your preferred model from Hugging Face or local path
 
+### 4. Network Configuration
+IMPORTANT: Sales and marketing teams must update the server IP address to match their demo system's IP address.
+
+The demo is configured for remote access. When running on your demo system:
+
+Open start_demo_remote.sh
+Located the Server IP address 
+SERVER_IP="xxx.xxx.xx.xxx"  
+Update this to your demo system's actual IP address
+To find your system's IP address:
+
+hostname -I | awk '{print $1}'
+
 ## Running the Demo
 
 ### Local Access
