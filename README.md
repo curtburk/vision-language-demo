@@ -130,7 +130,7 @@ To use a different VLM model:
 3. Open a browser and navigate to: `http://localhost:8000`
 
 ### Remote Access (Preferred Method for HP ZGX Nano)
-####  This will allow you to open up the web app frontend on Windows (or other device) that is not the ZGX
+####  This will allow you to open up the web app frontend on Windows (or other device) that is not the ZGX if you are executing the start_demo_remote.sh file from your HP ZGX Nano
 
 Use the provided remote start script:
 
