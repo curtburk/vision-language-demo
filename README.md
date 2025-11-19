@@ -119,9 +119,11 @@ IMPORTANT: Sales and marketing teams must update the server IP address to match 
 The demo is configured for remote access. When running on your demo system:
 
 Open start_demo_remote.sh
-Located the Server IP address 
-SERVER_IP="xxx.xxx.xx.xxx"  
+Locate the Server IP address in the ./start_demo_remote.sh file
+E.g., SERVER_IP="xxx.xxx.xx.xxx"  
+
 Update this to your demo system's actual IP address
+
 To find your system's IP address:
 
 hostname -I | awk '{print $1}'
